@@ -1,0 +1,16 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 系统文件
+.DS_Store
+
+# 数据集（体积大，不随代码上传）
+data/
+data_aug/
+data_ft/
+val2017/
+
+# 冗余的 latest 权重（与各自 best 版重复）
+aug_latest.pt
+latest_checkpoint.pt
